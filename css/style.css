@@ -1,0 +1,250 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: 30px;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  text-align: center;
+  margin: 0px 0px 30px 80px;
+  height: 80px;
+}
+
+.logobaixo {
+  text-align: center;
+  margin: 0px 0px 30px 85px;
+  height: 50px;
+}
+
+#menu {
+  display: inline-flex;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 40px;
+}
+
+#menutexto {
+  background-image: linear-gradient(to right, #010e65 50%, #F5BB2C 50%);
+  color: white;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 95px;
+  width: 100%;
+}
+
+#menutexto > h1 {
+  letter-spacing: 2px;
+}
+
+#menuprinc {
+  text-align: center;
+  padding-top: 170px;
+  background-color: rgba(154, 174, 210, 0.7333333333);
+  border: 1px solid #010e65;
+}
+
+.abrir {
+  transform: rotate(90deg);
+  color: white;
+  cursor: pointer;
+}
+
+#menufechado {
+  background-color: rgba(103, 128, 176, 0.7333333333);
+  display: none;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  padding: 15px 105px 5px 35px;
+  animation: lado 1s linear;
+  margin: 2px;
+  border-radius: 5px;
+  color: white;
+}
+
+.link:hover {
+  background-color: white;
+  color: #010e65;
+}
+
+@keyframes lado {
+  0% {
+    transform: translatex(-100px);
+  }
+}
+#about {
+  padding: 20px;
+}
+
+#about > p {
+  text-align: justify;
+}
+
+#about > h4 {
+  background-color: #010e65;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  width: 300px;
+}
+
+.projimagem {
+  width: 180px;
+  height: 180px;
+  margin: 60px -190px;
+  position: absolute;
+  border-radius: 300px 0px 0px 0px;
+}
+
+#imagem {
+  background-color: #F5BB2C;
+  margin: 20px;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 300px 0px 0px 0px;
+}
+
+#imagem {
+  background-color: #F5BB2C;
+  margin: 20px;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 300px 0px 0px 0px;
+}
+
+#projetos {
+  margin: 20px;
+}
+
+#proj1 {
+  margin: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+#proj1 > div > p {
+  text-align: justify;
+  margin: 20px;
+}
+
+#proj3 {
+  margin: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+#proj3 > div > p {
+  text-align: justify;
+  margin: 20px;
+}
+
+#proj2 {
+  margin: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+#proj2 > div > p {
+  text-align: justify;
+  margin: 20px;
+}
+
+#proj4 {
+  margin: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+#proj4 > div > p {
+  text-align: justify;
+  margin: 20px;
+}
+
+#paragrafo {
+  width: 500px;
+  margin: 20px;
+}
+
+#projetos > h4 {
+  background-color: #010e65;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  margin: auto;
+  margin: 20px;
+}
+
+@media (max-width: 780px) {
+  #proj1 {
+    display: inline;
+    margin: 40px;
+    margin: auto;
+  }
+  #proj3 {
+    display: inline;
+    margin: 40px;
+    margin: auto;
+  }
+  #proj2 {
+    display: inline;
+    margin: 40px;
+    margin: auto;
+  }
+  #proj4 {
+    display: inline;
+    margin: 40px;
+    margin: auto;
+  }
+  #paragrafo {
+    width: 400px;
+    margin: auto;
+  }
+  #imagem {
+    text-align: center;
+    margin: auto;
+  }
+}
+#footer {
+  text-align: center;
+  background-color: #010e65;
+  color: white;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.footer {
+  padding: 5px;
+  letter-spacing: 2px;
+}
+
+svg {
+  margin: 10px;
+}
+
+#formulario {
+  background-color: #F5BB2C;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
